@@ -22,7 +22,7 @@
 
 #### Poznámka
 
-Hodiny budou stále ukazovat 12:00, resp. `12:00` a `12 00`. Tím se netrap. Pro změnu cifer podle aktuálního čas by byl potřeba JavaScript, který není náplní tohoto cvičení.
+Hodiny budou stále ukazovat 12:00, resp. `12:00` a `12 00`. Tím se netrap. Pro změnu cifer podle aktuálního času by byl potřeba JavaScript, který není náplní tohoto cvičení.
 
 ### Analogové hodiny
 
