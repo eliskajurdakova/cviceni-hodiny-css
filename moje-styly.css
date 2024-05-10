@@ -1,8 +1,22 @@
 /* Do tohoto souboru piš vlastní styly */
+@keyframes blikani {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 
 .digitalni__dvojtecka {
-	/* Zadefinuj a zde pak použij animaci blikání */
+	animation: blikani 1s infinite;
 }
+
+	/* Zadefinuj a zde pak použij animaci blikání */
+
 
 
 /* Statický ukázkový čas 4:35:57 */
@@ -14,4 +28,24 @@
 }
 .analogove__vterinova {
 	transform: rotate(342deg);
+}
+
+
+
+
+@keyframes toceni {
+	0%{
+	rotate: 0turn;
+	}
+
+	100%{ 
+		rotate:1turn;
+	}
+}
+
+.analogove__vterinova {
+	animation-name: toceni;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-duration: 60s;	
 }
